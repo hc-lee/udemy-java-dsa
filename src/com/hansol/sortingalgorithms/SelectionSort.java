@@ -1,4 +1,4 @@
-package hansol.sortingalgorithms;
+package com.hansol.sortingalgorithms;
 
 public class SelectionSort {
 

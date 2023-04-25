@@ -1,6 +1,6 @@
 //* Bubble sort O(n^2). Own implementation first then do UDemy example.*//
 
-package hansol.sortingalgorithms;
+package com.hansol.sortingalgorithms;
 
 import java.util.Arrays;
 
