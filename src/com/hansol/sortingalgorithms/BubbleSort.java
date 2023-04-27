@@ -1,4 +1,7 @@
-//* Bubble sort O(n^2). Own implementation first then do UDemy example.*//
+/*
+Bubble sort O(n^2). Own implementation first then do UDemy example.
+Visual: https://visualgo.net/en/sorting
+ */
 
 package com.hansol.sortingalgorithms;
 
