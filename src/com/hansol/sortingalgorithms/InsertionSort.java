@@ -8,6 +8,9 @@ Visual: https://visualgo.net/en/sorting
 Assume the first element of the array is sorted. Then, from the next elem from the last sorted elem, compare until
 index = 0.
 While next elem > last elem, shift last elem to the right. If next elem < last elem, move the next elem into position.
+
+STABLE algorithm.
+
  */
 
 import java.util.Arrays;
