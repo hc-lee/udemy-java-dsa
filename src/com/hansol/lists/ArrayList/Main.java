@@ -52,6 +52,11 @@ public class Main {
 
         // .indexOf(obj) returns the index of an object if it exists. Uses .equals().
         System.out.println(employeeList.indexOf(new Employee("John", "Doe", 4567)));
+
+        // .remove() removes from list
+        employeeList.remove(2);
+        employeeList.forEach(employee -> System.out.println(employee));
+
     }
 
 }
