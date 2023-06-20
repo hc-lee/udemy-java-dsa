@@ -1,0 +1,16 @@
+Queues:
+
+Queues are an abstract data type.
+They enforce a "First in, First out" (FIFO).
+
+Has methods:
+
+    .add() - also called "enqueue". Adds item to END of queue.
+    .remove() - also called "dequeue". Removes item from FRONT of queue.
+    .peek() - get item at the front of the queue but doesn't remove it.
+
+You can implement using arrays or LinkedLists.
+You have two pointers. Front and back.
+In a LinkedList, you just manipulate the pointers.
+Complexity is the same as it was with stacks. It can be linear time if you need to resize an array and always
+constant time when using LinkedLists.
