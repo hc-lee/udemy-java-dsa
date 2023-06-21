@@ -1,4 +1,4 @@
-package com.hansol.lists.challenge1;
+package com.hansol.lists.Challenge1;
 
 
 public class Employee {

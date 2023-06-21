@@ -1,0 +1,13 @@
+Stable vs Unstable sorting algorithms.
+
+In an UNSTABLE sort, the relative positions of the elements of the array after sorting is NOT the same.
+Consider the array: int[] arr = {5,9(1),3,9(2),8,4}
+
+After sorting: {3,4,5,6,9(2),9(1)}
+
+The second 9 is now before the first 9 in the original array.
+
+A STABLE sort would have yielded: {3,4,5,6,9(1),9(2)}
+For integers, it usually won't matter but for other it might.
+
+-   Bubble Sort is a STABLE algorithm. Reason is because when

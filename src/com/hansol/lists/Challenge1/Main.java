@@ -1,5 +1,12 @@
-package com.hansol.lists.challenge1;
+package com.hansol.lists.Challenge1;
 
+/*
+
+Challenge 1:
+
+Implement the addBefore() method for EmployeeDoublyLinkedList class
+
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -10,7 +17,7 @@ public class Main {
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
         Employee billEnd = new Employee("Bill", "End", 78);
 
-        com.hansol.lists.challenge1.EmployeeDoublyLinkedList list = new com.hansol.lists.challenge1.EmployeeDoublyLinkedList();
+        com.hansol.lists.Challenge1.EmployeeDoublyLinkedList list = new com.hansol.lists.Challenge1.EmployeeDoublyLinkedList();
 
         list.addToFront(janeJones);
         list.addToFront(johnDoe);

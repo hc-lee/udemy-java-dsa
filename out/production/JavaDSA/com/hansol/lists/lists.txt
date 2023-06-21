@@ -1,0 +1,11 @@
+Lists and Abstract Data Types:
+
+* A concrete data structure like an array dictates how the data needs to be organized. An array, for example, dictates
+    that every element must be the same size and stored contiguously in memory. I.e. memory is pre-reserved for an
+    array of size N of type WORD/DWORD/QWORD, etc...
+
+* And abstract data type in comparison does not have these hard and fast rules about how the data is organized. However,
+    it does dictate what operations you can perform on that data and describes the behavior of the structure.
+
+* Concrete data structures are usually a concrete class. Abstract data types are typically an interface in Java
+    (List<E>, ArrayList<E>, etc.).

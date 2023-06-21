@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6db166a0-00ba-4bc1-8225-d0e7ada390f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/EmployeeDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/EmployeeDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/EmployeeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/EmployeeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hansol/lists/Challenge1/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9bff7d78-26dc-48bc-a033-48ee6f996dbe" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OodmtflP4L9TOlHQgAmUMymcDH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "C:/Users/Hansol Lee/Desktop/Interview Practice/JavaDSA/JavaDSA",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hansol Lee\Desktop\Interview Practice\JavaDSA\JavaDSA\src\com\hansol\queues\challenge" />
+      <recent name="C:\Users\Hansol Lee\Desktop\Interview Practice\JavaDSA\JavaDSA\src\com\hansol\stacks\challenge" />
+      <recent name="C:\Users\Hansol Lee\Desktop\Interview Practice\JavaDSA\JavaDSA\src\com\hansol\sortingalgorithms" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hansol.stacks" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.hansol.queues.challenge.Main">
+    <configuration name="com.hansol.lists.LinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hansol.lists.LinkedList.Main" />
+      <module name="JavaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hansol.lists.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hansol.queues.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hansol.queues.Main" />
+      <module name="JavaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hansol.queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hansol.queues.challenge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hansol.queues.challenge.Main" />
+      <module name="JavaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hansol.queues.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hansol.stacks.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hansol.stacks.Main" />
+      <module name="JavaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hansol.stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hansol.stacks.challenge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hansol.stacks.challenge.Main" />
+      <module name="JavaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hansol.stacks.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.hansol.queues.challenge.Main" />
+        <item itemvalue="Application.com.hansol.queues.Main" />
+        <item itemvalue="Application.com.hansol.stacks.challenge.Main" />
+        <item itemvalue="Application.com.hansol.stacks.Main" />
+        <item itemvalue="Application.com.hansol.lists.LinkedList.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6db166a0-00ba-4bc1-8225-d0e7ada390f7" name="Changes" comment="" />
+      <created>1682231032250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682231032250</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaDSA$MergeSort.ic" NAME="MergeSort Coverage Results" MODIFIED="1684294831881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hansol.sortingalgorithms.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,13 +1,13 @@
-package com.hansol.lists.challenge1;
+package com.hansol.lists.Challenge1;
 
 public class EmployeeDoublyLinkedList {
 
-    private com.hansol.lists.challenge1.EmployeeNode head;
-    private com.hansol.lists.challenge1.EmployeeNode tail;
+    private com.hansol.lists.Challenge1.EmployeeNode head;
+    private com.hansol.lists.Challenge1.EmployeeNode tail;
     private int size;
 
     public void addToFront(Employee employee) {
-        com.hansol.lists.challenge1.EmployeeNode node = new com.hansol.lists.challenge1.EmployeeNode(employee);
+        com.hansol.lists.Challenge1.EmployeeNode node = new com.hansol.lists.Challenge1.EmployeeNode(employee);
 
         if (head == null) {
             tail = node;
@@ -22,7 +22,7 @@ public class EmployeeDoublyLinkedList {
     }
 
     public void addToEnd(Employee employee) {
-        com.hansol.lists.challenge1.EmployeeNode node = new com.hansol.lists.challenge1.EmployeeNode(employee);
+        com.hansol.lists.Challenge1.EmployeeNode node = new com.hansol.lists.Challenge1.EmployeeNode(employee);
         if (tail == null) {
             head = node;
         }
@@ -41,17 +41,23 @@ public class EmployeeDoublyLinkedList {
         // into the list before the existing employee. Return false
         // if the existing employee doesn't exist in the list
 
-        // add your code here
+        /*
+        Requirements:
+
+         */
+
+        EmployeeNode newNode = new EmployeeNode(newEmployee);
+
 
         return false;
     }
 
-    public com.hansol.lists.challenge1.EmployeeNode removeFromFront() {
+    public com.hansol.lists.Challenge1.EmployeeNode removeFromFront() {
         if (isEmpty()) {
             return null;
         }
 
-        com.hansol.lists.challenge1.EmployeeNode removedNode = head;
+        com.hansol.lists.Challenge1.EmployeeNode removedNode = head;
 
         if (head.getNext() == null) {
             tail = null;
@@ -66,12 +72,12 @@ public class EmployeeDoublyLinkedList {
         return removedNode;
     }
 
-    public com.hansol.lists.challenge1.EmployeeNode removeFromEnd() {
+    public com.hansol.lists.Challenge1.EmployeeNode removeFromEnd() {
         if (isEmpty()) {
             return null;
         }
 
-        com.hansol.lists.challenge1.EmployeeNode removedNode = tail;
+        com.hansol.lists.Challenge1.EmployeeNode removedNode = tail;
 
         if (tail.getPrevious() == null) {
             head = null;
@@ -95,7 +101,7 @@ public class EmployeeDoublyLinkedList {
     }
 
     public void printList() {
-        com.hansol.lists.challenge1.EmployeeNode current = head;
+        com.hansol.lists.Challenge1.EmployeeNode current = head;
         System.out.print("HEAD -> ");
         while (current != null) {
             System.out.print(current);
