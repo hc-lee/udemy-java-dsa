@@ -1,0 +1,29 @@
+Some say trees are data structures and others say they are ADTs. Trees dictate how data must be organized.
+Tree and TreeNode classes exist to implement them. They can also be backed by an array.
+
+Theory of Trees:
+
+Hierarchical data structure.
+
+Trees consist of Nodes and Children.
+    1. Every item on a Tree is a Node.
+    2. Each node have 1 and ONLY 1 parent (one-to-one or one-to-many).
+    3. Every tree has 1 and ONLY 1 root node (the progenitor node).
+    4. A leaf node has no children. (1, 12, 5 in example below).
+    5. A singleton tree has only one node - the root.
+    6. Nodes are connected by edges that flow from the parent to child.
+
+              Tree example:
+                                        15 (root node)
+                                       / \
+                            (child 1) 22  4 (child 2)
+                                     / \   \
+                                    1  12   5
+
+The Java class hierarchy is also a Tree. A class can only extend (inherit from) one other class (no multiple inheritance).
+However, a parent class can have multiple child classes extending from it.
+
+The File System on a computer is also a Tree. Many files can be contained in one parent folder but not multiple.
+
+A tree can be broken into sub-trees.
+
