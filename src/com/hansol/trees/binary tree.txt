@@ -90,3 +90,36 @@ Binary Search Tree:
     2. Pre-order: 15, 3, 2, 22, 18, 19, 25
     3. In-order: 2, 3, 15, 18, 19, 22, 25 (ends up in sorted order)
     4. Post-order: 2, 3, 19, 18, 25, 22, 15
+
+======================================================================================================================
+get, min, max:
+
+get(int value):
+    Recursively traverse left and then right branches until value matches data and return.
+
+min():
+    Recursively traverse left branches only until a leaf is encountered (i.e. leaf.leftChild == null).
+
+max():
+    Recursively traverse right branches only ...... (i.e. leaf.rightChild == null).
+
+
+======================================================================================================================
+Delete:
+
+3 cases:
+    1. Node is a leaf:
+            Simply delete the leaf.
+    2. Node has one child:
+            Simply replace the parent node with its child.
+
+    3. Node has two children:
+            Need to find out what the replacement node will be.
+            Want minimal disruption to the existing structure.
+            We can take the replacement node from the deleted node's right OR left subtree.
+            If taking from the left, have to take the LARGEST value from LEFT subtree.
+            If taking from the right, have to take the SMALLEST value from RIGHT subtree.
+            Only one or the other.
+
+            If that smallest/largest value has a right or left child (depending), it replaces its parent.
+            Otherwise, it is nulled out.

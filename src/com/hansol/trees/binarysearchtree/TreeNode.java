@@ -59,6 +59,8 @@ public class TreeNode {
         return null;
     }
 
+
+
     public int min() {
         // Base case. Leaf node encountered
         if (leftChild == null) {

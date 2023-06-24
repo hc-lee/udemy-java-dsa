@@ -15,6 +15,7 @@ public class Main {
         intTree.insert(22);
         intTree.insert(32);
         intTree.insert(17);
+        intTree.delete(27);
 
         intTree.traverseInOrder();
         System.out.println();
@@ -25,6 +26,8 @@ public class Main {
 
         System.out.println("Min = " + intTree.min());
         System.out.println("Max = " + intTree.max());
+
+
 
     }
 
