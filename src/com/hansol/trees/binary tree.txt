@@ -1,0 +1,92 @@
+Binary Trees:
+
+Binary trees are a special type of tree where every node has either 0, 1, or 2 children.
+Each child is referred to as left or right child node.
+In practice, they are used in binary search trees.
+
+A binary tree is COMPLETE if every node except the leaves have 2 children nodes. The exception is if the last
+node at the level above the last level has a left child. It is not complete if that node has a right child only.
+The leaf nodes need to be left-most.
+
+              Complete Tree Example:
+                                       15 (root node)
+                                     /    \
+                          (L child) 22     4 (R child)
+                                   / \    /
+                                  1  12   5
+
+
+
+A FULL binary tree is a tree where EVERY node has two children. That means the last level is completely full.
+A full binary tree is also a complete tree.
+
+              Full Tree Example:
+                                       15 (root node)
+                                     /    \
+                          (L child) 22     4 (R child)
+                                   / \    /  \
+                                  1  12   5   7
+
+
+======================================================================================================================
+
+Binary Search Tree:
+
+Can perform insertions, deletions, and retrievals in O(log n) time.
+
+Rules:
+    * left child < parent
+    * right child > parent
+
+such that: left < parent < child.
+
+This means that EVERY node to the left of the root node will be less the root. Conversely, every node to the right will
+be greater than the root.
+
+            Binary Search Tree:
+                                15 (root)
+                               /   \
+                              3     22
+                             /     /  \
+                            2     18  25
+                                    \
+                                     19
+
+What about duplicate values? Some implementations don't allow them. Others set rules (dup to right XOR dup to left).
+Another approach is to keep a counter for the number of copies of a node.
+The root node can have a large influence on the shape of a BST. If you try to construct one with sorted data, you would
+get only left or only right insertions.
+
+Traversals always start at the root.
+You can find the minimum value of a tree by traversing down the left edge until you reach the leaf. Same with the max.
+If you read a BST from left to right, the numbers are in ascending order.
+
+======================================================================================================================
+
+Traversals:
+
+    1. Level traversal:
+        Visit the nodes on the same level from left to right until the leaf level is reached (not used often).
+
+    2. Pre-order traversal:
+        Visit the root of every subtree first.
+
+    3. Post-order traversal:
+        Visit root of every subtree last.
+
+    4. In-order:
+        Visit left child, then root, then right child.
+
+Binary Search Tree:
+                                15 (root)
+                               /    \
+                              3      22
+                             /     /     \
+                            2     18      25
+                                    \
+                                     19
+
+    1. Level order: 15, 3, 22, 2, 18, 25, 19
+    2. Pre-order: 15, 3, 2, 22, 18, 19, 25
+    3. In-order: 2, 3, 15, 18, 19, 22, 25 (ends up in sorted order)
+    4. Post-order: 2, 3, 19, 18, 25, 22, 15

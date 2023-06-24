@@ -27,3 +27,11 @@ The File System on a computer is also a Tree. Many files can be contained in one
 
 A tree can be broken into sub-trees.
 
+A path cannot cross a node more than once when traversing a tree. No cycles. Revisit 225 notes for traversal types.
+A Root Path is a traversal from a node to the root. The same traversal rules apply.
+
+Depth of Node: Number of EDGES from NODE to the ROOT (e.g. 5 has a depth of 2).
+Height of Node: Number of edges on LONGEST path from NODE to a LEAF (height of 15 is 2). That means leaves have a
+                    height of 0. The height of a tree is the height of the root node.
+
+Level of Node: All nodes at the same depth (NOT height) in tree (Root = 0).
