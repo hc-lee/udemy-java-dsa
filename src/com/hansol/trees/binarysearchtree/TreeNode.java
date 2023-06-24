@@ -89,6 +89,17 @@ public class TreeNode {
         }
     }
 
+    // Recursive pre order traversal. BST challenge #1.
+    public void traversePreOrder() {
+        System.out.print("Data = " + data + ", ");
+        if (leftChild != null) {
+            leftChild.traversePreOrder();
+        }
+        if(rightChild != null) {
+            rightChild.traversePreOrder();
+        }
+    }
+
     public void setData(int data) {
         this.data = data;
     }

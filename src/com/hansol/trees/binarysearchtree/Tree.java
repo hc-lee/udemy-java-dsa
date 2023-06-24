@@ -84,4 +84,11 @@ public class Tree {
         }
     }
 
+    // BST challenge #1
+    public void traversePreOrder() {
+        if (rootNode != null) {
+            rootNode.traversePreOrder();
+        }
+    }
+
 }

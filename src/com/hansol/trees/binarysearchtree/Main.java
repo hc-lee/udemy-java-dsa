@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Tree intTree = new Tree();
+
         intTree.insert(25);
         intTree.insert(20);
         intTree.insert(15);
@@ -15,20 +16,22 @@ public class Main {
         intTree.insert(22);
         intTree.insert(32);
         intTree.insert(17);
-        intTree.delete(27);
+        intTree.delete(17);
 
+        System.out.print("In order traversal: ");
         intTree.traverseInOrder();
         System.out.println();
 
-        System.out.println(intTree.get(27));
-        System.out.println(intTree.get(17));
-        System.out.println(intTree.get(213123));
+        System.out.print("Pre order traversal: ");
+        intTree.traversePreOrder();
+        System.out.println();
 
-        System.out.println("Min = " + intTree.min());
-        System.out.println("Max = " + intTree.max());
+        System.out.println(intTree.get(26));
 
-
-
+        // Should be 15
+        System.out.println(intTree.min());
+        //Should be 32
+        System.out.println(intTree.max());
     }
 
 }
