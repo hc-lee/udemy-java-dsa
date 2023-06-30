@@ -1,0 +1,101 @@
+Heaps/Binary Heaps:
+
+Heaps are a complete binary tree that must satisfy the heap property. Recall, a complete binary tree needs to have
+every level filled except possibly the last. The leaf nodes need to be as far left as possible to be a complete tree.
+
+Max Heap:
+Every parent >= children
+
+Min Heap:
+Every parent <= children
+
+There is no ordering between children. They are added at each level from left to right.
+The min or max value will always be at the root of the tree (advantage to using heaps).
+They are usually implemented as arrays.
+
+Definition:
+
+Heapify: Process of converting a binary tree into a heap. Often has to be done after insertion or deletion.
+
+When you travel down any path in a tree, it will either descend (max heap) or ascend (min heap).
+
+
+========================================================================================================================
+Heaps as Arrays:
+
+Can store binary heaps as arrays.
+
+   * Put the root at array[0]
+   * Traverse each level from left to right so the left child of the root would go into array[1] and right child into
+        array[2], etc...
+
+                     Binary Heap:
+                                    22
+                                  /    \
+                                19      18
+                               /  \    /  \
+                              15   3  14   4
+                             /
+                            12
+
+                     As an array: [22, 19, 18, 15, 3, 14, 4, 12]
+
+   For the node at array[i]:
+
+   location in array of left child = 2i + 1
+   location in array of right child = 2i + 2
+
+   location in array of parent = floor((i-1)/2) === (i-1) // 2
+
+   If an index is out of bounds, that node doesn't have a child. This only works with complete binary trees.
+
+Inserting into a Heap:
+
+    * Always add new items to the end of the array.
+    * Then you have to fix the heap (heapify).
+        * Compare new item against its parent (i-1) // 2
+        * If item is greater than parent, swap with parent.
+        * Continue until it's less than its parent (recursive).
+
+Deleting from a Heap:
+
+    * Must choose a replacement value.
+    * Will take the RIGHTMOST value as replacement, so the tree remains complete.
+    * Must heapify when:
+        * Replacement value > parent : fix heap above
+        * Replacement value < parent : fix heap below
+
+
+    Fix heap above:
+    Swap replacement value with parent.
+
+    Fix heap below:
+    Swap replacement value with the larger of its two children.
+
+    Repeat until the replacement value is in the correct position. You only need to fix up or down. Not both.
+    Heaps are usually used because we are interested in the min or max of a data set since they are always at the root.
+    Only requires a simple constant time get since it will always be at the 0th index in an array.
+========================================================================================================================
+PriorityQueue<E>:
+
+A common use of heaps is in a Priority Queue. Rather than FIFO, the order of removal in a P. Queue is the min/max.
+Idea is that the root is always the highest priority. After removing an item from the P Queue, the next highest
+priority item is found and put in the front of the queue (root).
+
+It's a MIN heap. No limit to items it can hold. It's self resizing.
+
+Insert: with priority.
+Poll: (remove) item with highest priority.
+Peek: Look at highest priority item.
+
+If you want a Max Heap with PriorityQueue, you can pass a Comparator in the constructor.
+
+    "PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Comparator.reverseOrder());"
+
+========================================================================================================================
+Heapsort:
+
+
+
+
+========================================================================================================================

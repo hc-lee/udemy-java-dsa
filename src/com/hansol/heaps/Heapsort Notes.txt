@@ -1,0 +1,14 @@
+Heap Sort:
+
+In a MAX heap, we know the root has the largest value.
+
+    * Swap root with last ELEMENT in ARRAY.
+    * Heapify tree BUT exclude the last node.
+    * After heapify, the second largest element is at the root.
+    * Decrement last index.
+    * Repeat until sorted.
+
+After every iteration, the new max is moved to index[0] and the old max is placed at the end of the working array.
+A heapsorted MAX heap will result in an ascending sort.
+
+
