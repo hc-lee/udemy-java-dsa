@@ -1,0 +1,10 @@
+Stacks are good because all operations (push, pop, peek, isEmpty) are all performed in O(1) constant time.
+Stacks can be a useful structure when you are:
+    1. Parsing:
+        * Evaluating math expressions, (postfix <-> infix, etc.).
+        * Brackets (isValidParentheses type questions)
+        * Reversing the order of anything (i.e. strings). This is O(n) however.
+
+    2. Also questions about stacks themselves:
+        * Implement a stack using a queue.
+        * Implement 2 stacks using a single array.

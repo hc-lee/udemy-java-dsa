@@ -1,0 +1,9 @@
+Queues are a FIFO data structure that can:
+    1. Enqueue (add to back of queue)
+    2. Dequeue (remove from front of queue).
+In O(1) time. This involves using TWO pointers (one for front and back) as opposed to the single pointer in stacks.
+
+Common Queue Questions:
+
+    1. Traversing a tree in LEVEL order.
+    2. Traversing a graph in Breadth First Search (BFS)

@@ -9,10 +9,16 @@ When using a LinkedList backed stack, you don't need to worry about resizing any
  */
 
 
+import java.util.Stack;
+
 public class Main {
 
     public static void main(String[] args) {
         ArrayStack arrayStack = new ArrayStack(10);
+
+        // Java implementation of stack. Use this.
+        // vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+        Stack<Character> stack = new Stack<>();
 
         arrayStack.push(new Employee("Jane", "Jones", 123));
         arrayStack.push(new Employee("John", "Doe", 4567));
@@ -35,6 +41,8 @@ public class Main {
         linkedListStack.push(new Employee("Mary", "Smith", 22));
         linkedListStack.push(new Employee("Mike", "Wilson", 3245));
         linkedListStack.push(new Employee("Bill", "End", 78));
+
+
 
     }
 
