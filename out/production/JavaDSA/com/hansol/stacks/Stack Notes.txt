@@ -1,9 +1,0 @@
-Stacks follow a Last-In-First-Out (LIFO) structure. An array or LinkedList can be used as a stack.
-
-Three operations:
-
-Push: Pushes a value/ref onto the stack.
-Pop: Return top of stack into variable. Remove from stack.
-Peek: Check value of top of stack without removing or popping.
-
-All O(1) complexity. Ideal backing structure is a LinkedList. An array might need to be resized, an O(n) operation.
